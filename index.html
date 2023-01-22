@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body > div {
+        background-color: antiquewhite;
+        padding: 40px;
+        padding-top: 27px;
+        width: fit-content;
+        margin: auto;
+      }
+      .bomDiv {
+        padding: 30px;
+        background-color: white;
+        box-shadow: 0px 4px 7px 0px #7c7070;
+        width: 400px;
+        margin: auto;
+        border-radius: 4px;
+        margin-top: 30px;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      input {
+        outline: none;
+        border: 1px solid #aaa;
+        padding: 10px;
+        width: 289px;
+        height: 22px;
+        border-radius: 6px;
+        margin-right: 10px;
+      }
+      .bomDiv button,
+      .display-task button {
+        outline: none;
+        color: white;
+        background-color: #de0303;
+        border-radius: 4px;
+        padding: 10px 10px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .display-task button {
+        background-color: red;
+        padding: 2px 5px;
+      }
+
+      .display-task .edit {
+        background-color: green;
+        margin-right: 10px;
+        padding: 2px 11px 2px 7px;
+      }
+
+      .display-task p {
+        margin: 0;
+      }
+      .display-task {
+        padding: 30px;
+        padding-bottom: 20px;
+        background-color: white;
+        box-shadow: 0px 4px 7px 0px #7c7070;
+        border-radius: 4px;
+        width: 450px;
+        margin: auto;
+        margin-top: 20px;
+      }
+
+      .display-task > div {
+        padding: 10px;
+        border: 1px solid #aaa;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        border-radius: 6px;
+      }
+    </style>
+    <title>BomChallenge</title>
+  </head>
+  <body>
+    <div>
+      <h1>TODO APP</h1>
+      <div>
+        <div class="bomDiv">
+          <input type="text" />
+          <button state="add">Add Task</button>
+        </div>
+        <div class="display-task">
+          <h2>Your Tasks will added here</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
